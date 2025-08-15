@@ -1,5 +1,5 @@
 #!/bin/bash
 set -e
 
-pip install jupyter-c-kernel
-install_c_kernel
+pip install --user jupyter-c-kernel
+python -m jupyter_c_kernel.install --user
