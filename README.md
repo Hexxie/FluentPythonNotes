@@ -1,31 +1,32 @@
-# Lanch Jupiter notebook with binder
+# Fluent Python Notes
+
+This repository contains my personal notes, observations, and experiments while reading "Fluent Python".
+Here I collect:
+
+💡 Ideas and insights about approaches discussed in the book
+🧪 Code experiments to test and deepen my understanding of the material
+📓 Interview preparation notes (Python core, algorithms, data handling)
+
+The goal is to create a structured knowledge base that I can easily revisit and update throughout the learning process.
+
+-----
+
+## 🚀 How to launch
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hexxie/FluentPythonNotes/HEAD)
 
-## How to open the book
+or locally 
 
 ```
-conda activate 6.86x
+pip install notebook
 jupyter notebook
 ```
 
-## How to build the book
-```
-jupyter-book build .
-```
+------
 
-## Where I can list my chapters
+📂 Structure
 
-Use _toc.yml
-```
-format: jb-book
-root: intro
-chapters:
-  - file: chapter1
-    sections:
-      - file: section1
-      - file: section2
-  - file: chapter2
-```
+- notebooks/ — Jupyter notebooks with code examples and experiments
+- notes/ — Text notes with explanations and comments
+- practice/ — Exercises and solutions for self-assessment
 
-## Enhancement
-- We can launch jupiter notebook with [Binder](https://mybinder.org/)
+-----
