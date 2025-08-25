@@ -30,3 +30,8 @@ jupyter notebook
 - practice/ — Exercises and solutions for self-assessment
 
 -----
+
+## Resources
+
+- [Fluent Python](https://learning.oreilly.com/library/view/fluent-python-2nd)
+- [Python Cookbook](https://learning.oreilly.com/library/view/python-cookbook-3rd)
